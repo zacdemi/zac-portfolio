@@ -8,8 +8,6 @@ body {
 footer {
   grid-column-start: 2;
   grid-column-end: 3;
-  justify-self: center;
-  align-self: center;
   margin-top: 1em;
 }
 
@@ -69,10 +67,11 @@ h2 {
 }
 
 .contact {
-  background-color: #ff6f6980;
+  justify-self: center;
+  align-self: center;
 }
 
-.intro, .about, .technical, .contact {
+.intro, .about, .technical {
   -moz-box-shadow: 0 0 3px #999;
   -webkit-box-shadow: 0 0 3px #999;
   box-shadow: 0 0 3px #999;
@@ -94,5 +93,4 @@ h2 {
   grid-row-end: 1;
   background-color: #f5f5f5;
 }
-
 
